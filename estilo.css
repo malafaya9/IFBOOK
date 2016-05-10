@@ -1,0 +1,183 @@
+@font-face{
+	font-family: bebas;
+	src: url("fontes/BebasKai-Regular.otf");
+}
+
+@font-face{
+	font-family: amble;
+	src: url("fontes/Amble-LightCondensed.otf");
+}
+
+body{
+	background-color: #e9eaed;
+}
+
+header{
+	height: 58px;
+	width: 100%;
+	background-color: #2a8751;
+	margin: -21px -8px auto -8px;
+	position: fixed;
+}
+#logo{
+	margin: 6px auto auto 46px;
+	height: 61px;
+}
+
+/* Menu superior */
+
+#mark{
+	height: 35px;
+	width: 35px;
+	border-radius: 18px;
+	margin-top: -8px;
+}
+
+h3{
+	margin-top: -3.5px;
+	color: #ffffff;
+	font-family: bebas;
+	font-size: 17pt;
+	letter-spacing: .6px;
+}
+
+#pesquisar{
+	border-radius: 13px;
+	border: none;
+	margin-top: -3.7px;
+	height: 27px;
+}
+
+#sup ul{
+	list-style-type: none;
+	margin-top: -60px;
+	margin-right: 80px;
+}
+
+#sup li{
+	float: right;
+	margin-left: 8px;
+}
+
+#sup li:first-child{
+	margin-left: 25px;
+}
+
+/* Menu lateral */
+
+#lat{
+	height: auto;
+	width: 18%;
+	background-color: #2a8751;
+	margin-left: 10px;
+	margin-top: 52px;
+	float: left;
+	padding: 0;
+	position: fixed;
+}
+
+#lat ul{
+	list-style-type: none;
+	font-family: amble;
+	font-size: 14pt;
+	color: white;
+	padding: 0;
+	
+}
+
+#lat li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+
+#lat li{
+	transition: 0.7s;
+	padding: 11px;
+}
+
+#lat li:hover{
+	background-color: #26322b;
+}
+
+.active{
+	background-color: #26322b;
+}
+
+/* Feed */
+
+section{
+	width: 78.7%;
+	background-color: #ffffff;
+	float: right;
+	margin-top: 52px;
+	margin-right: 19px;
+	border: solid black 1px;
+}
+
+h1{
+	color: #26322b;
+	font-size: 43pt;
+	font-family: bebas;
+	margin: 8px auto auto 21px;
+}
+
+h2{
+	height: 47px;
+	width: 234px;
+	background-color: #2a8751;
+	line-height: 45px;
+	text-align: center;
+	margin: 17px auto auto 22px;
+	float: left;
+}
+
+/* Fotos dos adms */
+
+figure{
+	width: 25.708%;
+	float: left;
+}
+
+figcaption{
+	font-family: bebas;
+	font-size: 25pt;
+	text-align: center;
+}
+
+.foto-adm{
+	margin-left: 40px;
+	border: solid 4px #2a8751;
+	border-radius: 150px;
+	transition: .6s;
+}
+
+.foto-adm:hover{
+	transform: scale(1.3);
+}
+
+/* Calourask */
+
+form{
+	font-family: bebas;
+	font-size: 25pt;
+}
+
+.campos{
+	width: 600px;
+}
+
+#calourask{
+	padding: 21px;
+}
+
+#anonimo{
+	margin-left: 25px;
+}
+
+textarea{
+	height: 210px;
+	width: 600px;
+	padding: 10px;
+	margin-top: 30px;
+}

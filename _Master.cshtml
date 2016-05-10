@@ -1,0 +1,41 @@
+﻿@{
+    var active = Path.GetFileNameWithoutExtension(Server.MapPath(VirtualPath)).ToString();
+    var cactive = "class\"active\"";
+}
+<!DOCTYPE html>
+<html lang="PT-BR">
+	<head>
+		<meta charset="UTF-8">
+		<title>@Page.Title</title>
+		<link rel="stylesheet" href="estilo.css">
+	</head>
+	<body>
+		<header>
+			<a href="index.cshtml"><img id="logo" alt="IFBOOK" src="imagens/logo.png"></a>
+			<nav id="sup">
+				<ul>
+					<li><input type="search" id="pesquisar" placeholder="Procurar um professor"></li>
+					<li><h3>Marcos Zuckerberg</h3></li>
+					<li><img alt="user-photo" id="mark" src="imagens/marquinhos.jpg"></li>				
+				</ul>
+			</nav>
+		</header>
+		
+		<nav id="lat">
+			<ul>
+				<li><a href="index.cshtml">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Home</a></li>
+				<li><a href="professores.cshtml">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Professores</a></li>			
+				<li><a href="calourask.cshtml">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Calourask</a></li>
+				<li><a href="calendario.cshtml">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Calendário de eventos</a></li>
+				<li><a href="cadastro.cshtml">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cadastre um professor</a></li>
+				<li><a href="administradores.cshtml">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administradores</a></li>
+				<li><a href="notificacoes.cshtml">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Notificações</a></li>
+				<li><a href="logout.cshtml">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sair</a></li>
+			</ul>
+		</nav>
+		
+		<section style="height:800px;margin-bottom: 5px;">
+			@RenderBody()
+		</section>
+	</body>
+</html>
