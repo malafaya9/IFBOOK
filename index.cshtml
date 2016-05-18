@@ -2,10 +2,10 @@
     Layout = "_MasterLC.cshtml";
     Page.Title = "Login";
 }
-
 <form method="post" action="feed">
     <h1>Login</h1>
-    <input id="c1" type="text" placeholder="Usuário"><br>
-    <input id="c2" type="password" placeholder="Senha"><br>
-    <input type="submit" class="enviar">
+    <input class="caixaTexto" type="text" placeholder="Usuário" required><br>
+    <input class="caixaTexto" type="password" placeholder="Senha" required><br>
+    <label>Não tem login? <a href="cadastro">Cadastre-se</a></label><br><br>
+    <input type="submit" class="enviar" value="Entrar">
 </form>
