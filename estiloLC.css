@@ -1,0 +1,53 @@
+@font-face{
+	font-family: bebas;
+	src: url("fontes/BebasKai-Regular.otf");
+}
+
+@font-face{
+	font-family: amble;
+	src: url("fontes/Amble-LightCondensed.otf");
+}
+
+body{
+    background-color: #e4dede;
+}
+
+#masterLC{
+    background-color: #2a8751;
+    width: 103%;
+    height: 70px;
+	margin: -21px -8px auto -8px;
+}
+
+#logo{
+	height: 76px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    margin-top: 42px;
+}
+
+/* Corpo */
+
+section{
+     min-width: 500px;
+     margin: -50px -8px auto -8px;
+}
+
+h1{
+    color: #2a8751;
+	font-size: 55pt;
+	font-family: bebas;
+	text-align: center;
+    margin-top: 80px;
+}
+
+/* Rodapé */
+
+footer{
+	height: 50px;
+	width: 100%;
+	background-color: #2a8751;
+	clear: both;
+	margin-left: -8px;
+}
