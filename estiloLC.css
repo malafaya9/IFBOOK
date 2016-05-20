@@ -1,11 +1,11 @@
 @font-face{
 	font-family: bebas;
-	src: url("fontes/BebasKai-Regular.otf");
+	src: url("fontes/BebasKai.otf");
 }
 
 @font-face{
 	font-family: amble;
-	src: url("fontes/Amble-LightCondensed.otf");
+	src: url("fontes/Amble.otf");
 }
 
 body{
@@ -73,6 +73,7 @@ form{
     padding: 7px;
     padding-left: 25px;
     font-weight: 560;
+    color: #2a8751;
 }
 
 ::-webkit-input-placeholder{
