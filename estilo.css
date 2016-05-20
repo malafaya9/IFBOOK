@@ -1,11 +1,11 @@
 @font-face{
 	font-family: bebas;
-	src: url("fontes/BebasKai-Regular.otf");
+	src: url("fontes/BebasKai.otf");
 }
 
 @font-face{
 	font-family: amble;
-	src: url("fontes/Amble-LightCondensed.otf");
+	src: url("fontes/Amble.otf");
 }
 
 body{
