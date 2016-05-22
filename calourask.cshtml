@@ -4,9 +4,7 @@
 }
 <h1>Calourask</h1>
 <form id="calourask">
-    Curso: <select class="campos">
-        <option>Informática para Internet</option>
-    </select><br>
-    Nome: <input type="text" class="campos"><input id="anonimo" type="radio">Anônimo<br>
-    <textarea></textarea>
+     <div class="formulario"><label>Nome: &nbsp;</label><input type="text" id="nome-calourask" class="c1"><input id="anonimo" type="checkbox" onclick="checar()">Anônimo<br></div>
+     <div class="formulario"><label>Curso: </label><select class="select" style="font-size: 17pt;"><option></option><option>Administração</option><option>Controle Ambiental</option><option>Edificações</option><option>Eletrotécnica</option><option>Geologia</option><option>Informática para Internet</option><option>Manutenção e Suporte em Informática</option><option>Mecânica</option><option>Mineração</option></select><br></div>
+    <textarea id="texto-calourask" placeholder="Deixe-nos uma sugestão.."></textarea>
 </form>

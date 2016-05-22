@@ -1,15 +1,18 @@
 @font-face{
 	font-family: bebas;
 	src: url("fontes/BebasKai.otf");
+    src: local("bebas"), url("fontes/bebaskai-webfont.ttf") format("truetype");
 }
 
 @font-face{
 	font-family: amble;
 	src: url("fontes/Amble.otf");
+    src: local("amble"), url("fontes/amble-webfont.ttf") format("truetype");
 }
 
 body{
 	background-color: #e9eaed;
+    
 }
 
 header{
@@ -186,27 +189,29 @@ form{
     margin-left: 80px;
 }
 
-#c1{
+.c1{
     width: 342px;
-    height: 20px;
+    height: 27px;
 }
 
-#c2{
+.select{
     width: 511px;
-    height: 37px;
+    height: 43px;
 }
 
-#c3{
+.c2{
     width: 473px;
-    height: 20px;  
+    height: 27px;  
 }
 
-#c1, #c2, #c3{
+.c1, .select, .c2{
     border: solid 1px black;
-    background-color: #f1e6f1;
+    background-color: #f3e9f3;
     vertical-align: middle;
     padding: 7px;
-    font-size: 13.5pt;
+    padding-left: 18px;
+    font-size: 18.7pt;
+    font-family: bebas;
 }
 
 .formulario{
@@ -265,14 +270,17 @@ form{
 	font-size: 25pt;
 }
 
-.campos{
-	width: 600px;
-}
-
 #calourask{
 	padding: 21px;
 }
 
 #anonimo{
 	margin-left: 25px;
+}
+
+#texto-calourask{
+    padding: 10px 4px 10px 4px;
+    border: solid 1px;
+    width: 584px;
+    height: 170px;
 }

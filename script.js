@@ -27,3 +27,15 @@ function quantidade(){
         document.getElementById("matricula").value = conteudo.toString().slice(0, 13);
     }
 }
+
+function checar(){
+    var marcado = document.getElementById("anonimo").checked;
+
+    if(marcado == true){
+        document.getElementById("nome-calourask").disabled = true;
+    }
+
+    else{
+        document.getElementById("nome-calourask").disabled = false;
+    }
+}

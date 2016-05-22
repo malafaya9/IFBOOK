@@ -1,15 +1,17 @@
 @font-face{
 	font-family: bebas;
 	src: url("fontes/BebasKai.otf");
+    src: local("bebas"), url("fontes/bebaskai-webfont.ttf") format("truetype");
 }
 
 @font-face{
 	font-family: amble;
 	src: url("fontes/Amble.otf");
+    src: local("amble"), url("fontes/amble-webfont.ttf") format("truetype");
 }
 
 body{
-    background-color: #e4dede;
+    background-color: #e9eaed;
 }
 
 #masterLC{
