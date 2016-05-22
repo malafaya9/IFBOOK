@@ -3,8 +3,9 @@
     Page.Title="Calourask";
 }
 <h1>Calourask</h1>
-<form id="calourask">
-     <div class="formulario"><label>Nome: &nbsp;</label><input type="text" id="nome-calourask" class="c1"><input id="anonimo" type="checkbox" onclick="checar()">Anônimo<br></div>
-     <div class="formulario"><label>Curso: </label><select class="select" style="font-size: 17pt;"><option></option><option>Administração</option><option>Controle Ambiental</option><option>Edificações</option><option>Eletrotécnica</option><option>Geologia</option><option>Informática para Internet</option><option>Manutenção e Suporte em Informática</option><option>Mecânica</option><option>Mineração</option></select><br></div>
-    <textarea id="texto-calourask" placeholder="Deixe-nos uma sugestão.."></textarea>
+<form id="calourask" action="feed">
+    <div class="formulario"><label style="font-size: 17pt;">Enviar pergunta de forma anônima</label><input id="anonimo" type="checkbox" onclick="checar()"><br></div>
+    <div class="formulario"><label>Curso: </label><select id="curso-calourask" class="select" style="font-size: 17pt;"><option value="SelecioneSeuCurso"></option><option>Administração</option><option>Controle Ambiental</option><option>Edificações</option><option>Eletrotécnica</option><option>Geologia</option><option>Informática para Internet</option><option>Manutenção e Suporte em Informática</option><option>Mecânica</option><option>Mineração</option></select><br></div>
+    <textarea id="texto-calourask" placeholder="Envie uma pergunta para um veterano do seu curso.." required></textarea>
+    <input type="submit" id="enviar" onclick="changeSelectCalourask()">
 </form>

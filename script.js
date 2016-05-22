@@ -46,13 +46,27 @@ function checar(){
     }
 }
 
-function changeSelect(){
+function changeSelectCadastro(){
     var select = document.getElementById("curso");
     var value = select.options[select.selectedIndex].value;
 
     if (value == "SelecioneSeuCurso") {
         alert("Você não selecionou seu curso..");
         document.getElementById("redirecionar").action = "cadastro";
+    }
+
+    else {
+        document.getElementById("redirecionar").action = "feed";
+    }
+}
+
+function changeSelectCalourask(){
+    var select = document.getElementById("curso-calourask");
+    var value = select.options[select.selectedIndex].value;
+
+    if (value == "SelecioneSeuCurso") {
+        alert("Você não selecionou seu curso..");
+        document.getElementById("redirecionar").action = "calourask";
     }
 
     else {
