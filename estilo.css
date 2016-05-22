@@ -70,8 +70,8 @@ h3{
 
 #lat{
 	height: auto;
-	/*width: 18%;*/
-    width: 244px;
+	width: 18%;
+    /*width: 244px;*/
 	background-color: #2a8751;
 	margin-left: 10px;
 	margin-top: 52px;
@@ -110,8 +110,8 @@ h3{
 /* Feed */
 
 section{
-	/*width: 78.7%;*/
-    width: 1047px;
+	width: 78.7%;
+    /*width: 1047px;*/
 	background-color: #ffffff;
 	float: right;
 	margin-top: 52px;
