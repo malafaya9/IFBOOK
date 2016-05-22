@@ -30,12 +30,32 @@ function quantidade(){
 
 function checar(){
     var marcado = document.getElementById("anonimo").checked;
+    var conteudo = document.getElementById("nome-calourask").value;
 
     if(marcado == true){
         document.getElementById("nome-calourask").disabled = true;
+        document.getElementById("nome-calourask").style.backgroundColor = "#d5cccc";
+        if(conteudo != -1){
+            document.getElementById("nome-calourask").value = "";
+        }
     }
 
     else{
         document.getElementById("nome-calourask").disabled = false;
+        document.getElementById("nome-calourask").style.backgroundColor = "#f3e9f3";
+    }
+}
+
+function changeSelect(){
+    var select = document.getElementById("curso");
+    var value = select.options[select.selectedIndex].value;
+
+    if(value == "SelecioneSeuCurso"){
+        alert("Você não selecionou seu curso..");
+        document.getElementById("redirecionar").action = "cadastro";
+    }
+
+    else{
+        document.getElementById("redirecionar").action = "feed";
     }
 }
