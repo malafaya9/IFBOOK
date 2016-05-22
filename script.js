@@ -50,12 +50,12 @@ function changeSelect(){
     var select = document.getElementById("curso");
     var value = select.options[select.selectedIndex].value;
 
-    if(value == "SelecioneSeuCurso"){
+    if (value == "SelecioneSeuCurso") {
         alert("Você não selecionou seu curso..");
         document.getElementById("redirecionar").action = "cadastro";
     }
 
-    else{
+    else {
         document.getElementById("redirecionar").action = "feed";
     }
 }
