@@ -28,6 +28,7 @@ function quantidade(){
     }
 }
 
+/* Desabilitar nome calourask (não mais usado)
 function checar(){
     var marcado = document.getElementById("anonimo").checked;
     var conteudo = document.getElementById("nome-calourask").value;
@@ -45,6 +46,7 @@ function checar(){
         document.getElementById("nome-calourask").style.backgroundColor = "#f3e9f3";
     }
 }
+*/
 
 function changeSelectCadastro(){
     var select = document.getElementById("curso");
@@ -66,10 +68,10 @@ function changeSelectCalourask(){
 
     if (value == "SelecioneSeuCurso") {
         alert("Você não selecionou seu curso..");
-        document.getElementById("redirecionar").action = "calourask";
+        document.getElementById("calourask").action = "calourask";
     }
 
     else {
-        document.getElementById("redirecionar").action = "feed";
+        document.getElementById("calourask").action = "feed";
     }
 }
