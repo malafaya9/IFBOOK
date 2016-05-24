@@ -80,7 +80,11 @@ function logar(){
     var usuario = document.getElementById("user").value;
     var senha = document.getElementById("password").value;
 
-    if (usuario != "marcosadriano99" && senha != "finnpoeisreal") {
+    if (usuario == "marcosadriano99" && senha == "finnpoeisreal"){
+        document.getElementById("formulario-login").action = "feed";
+    }
+
+    else{
         document.getElementById("formulario-login").action = "index";
         alert("Usuário ou senha incorretos");
     }
