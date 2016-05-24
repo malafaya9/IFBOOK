@@ -58,7 +58,7 @@ function changeSelectCadastro(){
     }
 
     else {
-        document.getElementById("redirecionar").action = "feed";
+        document.getElementById("redirecionar").action = "cadastro";
     }
 }
 
@@ -73,5 +73,15 @@ function changeSelectCalourask(){
 
     else {
         document.getElementById("calourask").action = "feed";
+    }
+}
+
+function logar(){
+    var usuario = document.getElementById("user").value;
+    var senha = document.getElementById("password").value;
+
+    if (usuario != "marcosadriano99" && senha != "finnpoeisreal") {
+        document.getElementById("formulario-login").action = "index";
+        alert("Usuário ou senha incorretos");
     }
 }
