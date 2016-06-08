@@ -86,6 +86,6 @@ function logar(){
 
     else{
         document.getElementById("formulario-login").action = "index";
-        alert("Usuário ou senha incorretos");
+        alert('Marcos Zuckerberg: "Somente administrador.."');
     }
 }
