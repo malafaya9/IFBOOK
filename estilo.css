@@ -133,7 +133,7 @@ h1{
     padding: 10px 4px 10px 4px;
 	margin: 20px auto auto 20%;
     border: solid 1px;
-    font-size: 16pt;
+    font-size: 14pt;
 }
 
 /* Matérias */
@@ -172,7 +172,7 @@ figcaption{
 }
 
 .foto-adm{
-	margin-left: 40px;
+	margin-left: 45px;
 	border: solid 4px #2a8751;
 	border-radius: 150px;
 	transition: .6s;
