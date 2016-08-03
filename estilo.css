@@ -11,15 +11,16 @@
 }
 
 body{
+    margin: 0;
 	background-color: #e9eaed;
 }
 
 header{
 	height: 58px;
 	width: 100%;
-	background-color: #2a8751;
-	margin: -21px -8px auto -8px;
+	background-color: black;
 	position: fixed;
+    margin-top: -11px;
 }
 
 #logo{
@@ -72,7 +73,7 @@ h3{
 	height: auto;
 	width: 18%;
     /*width: 244px;*/
-	background-color: #2a8751;
+	background-color: black;
 	margin-left: 10px;
 	margin-top: 52px;
 	float: left;
@@ -100,7 +101,7 @@ h3{
 }
 
 #lat li:hover{
-	background-color: #26322b;
+	background-color: #2a8751;
 }
 
 .active{
@@ -153,7 +154,7 @@ h1{
 footer{
 	height: 50px;
 	width: 200%;
-	background-color: #2a8751;
+	background-color: black;
 	clear: both;
 	margin-left: -8px;
 }
